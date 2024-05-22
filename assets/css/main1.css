@@ -1,48 +1,5 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-/* Ensure the main container uses Flexbox */
-#main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-article {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto 2rem auto;
-    padding: 2rem;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-article .major {
-    margin-bottom: 1.5rem;
-}
-
-/* Video container styling */
-.video-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    margin: 2rem 0;
-}
-
-.video-container iframe {
-    flex: 1 1 45%;
-    max-width: 560px;
-    height: 315px;
-    margin: 0.5rem;
-}
-
-/* Ensure responsiveness */
-@media screen and (max-width: 768px) {
-    .video-container iframe {
-        flex: 1 1 100%;
-    }
-}
 
 /*
 	Dimension by HTML5 UP
@@ -1183,12 +1140,9 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-size: auto, 256px 256px;
+			background-position: center, center;
+			background-repeat: no-repeat, repeat;
 			z-index: 2;
 		}
 
